@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bed1efb6e8.js" crossorigin="anonymous"></script>
+    <title>Shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img class="icon" src="images/logo.jpg" width="50px" height="50px">
+                <h2>Shop</h2>
+            </div>
+            <button class="navbtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar hide">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Card</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="srh hide">
+                <input type="search" name="search" id="search" placeholder="Search">
+                <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                </button>
+            </div>
+            <div class="login">
+                <button class="btn1" id="btn1" type="submit">Log-in</button>
+            </div>
+        </nav>
+    </header>
+
+    <!--login popup window start-->
+
+    <div class="login-pop">
+        <div class="popup-cont">
+            <i class="fa-solid fa-user fa-2xl" style="color: #000000;"></i>
+            <input type="email" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <button class="btnpop" type="submit">Login</button></br></br>
+            <text>Not login create a account</text>
+            <button class="btn2" id="btn2" type="submit">Sign-up</button>
+            <img src="https://e7.pngegg.com/pngimages/723/887/png-clipart-computer-icons-x-mark-check-mark-red-x-miscellaneous-text-thumbnail.png" alt="" class="close" width="20px" height="20px"> 
+        </div>
+    </div>
+    <div class="sign-pop">
+        <div class="spopup-cont">
+            <div class="s">
+                <label for="name">User Name</label>
+                <div class="s1">
+                    <input type="text" name="name" placeholder="First Name">
+                    <input type="text" name="name" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="contect">
+                <div class="email">
+                    <label >Email</label>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="ph">
+                    <label >Phone Number</label>
+                    <input type="text" name="number" placeholder="10 digit number">
+                </div>
+            </div>
+            <div class="pass">
+                <div>
+                    <label>Password</label>
+                </div>
+                <div class="pass1">
+                    <input type="password" placeholder="Password">
+                    <input type="text" name="cpassword" id="" placeholder="Re-Password">
+                </div>
+            </div>
+            <div class="signupbtn">
+                <div class="sb">
+                    <button class="sbtnpop" type="submit">Sign-up</button>
+                </div>
+                <div class="t">
+                    <text>Already login. Click here to <a href="">Login</a></text>
+                </div>
+            </div>
+            <img src="https://e7.pngegg.com/pngimages/723/887/png-clipart-computer-icons-x-mark-check-mark-red-x-miscellaneous-text-thumbnail.png" alt="" class="sclose" width="20px" height="20px"> 
+        </div>
+    </div>
+
+    <!--login popup window end-->
+    <main>
+        <div class="container">
+            <div class="detail">
+                <h1>This Product is trending now</h1>
+                <p>Buy mobile phones at best prices.
+                    this is the right platform for you to look for 
+                    a mobile phone that fits your budget.
+                </p>
+                <h2>NOBI 2 Pro</h2>
+                <p>ROM - 1 TB</p>
+                <p>RAM - 12 GB </p>
+                <p>Processor - Snapdracon 888+</p>   
+                <p>Price - $99</p>
+                <div class="learn">
+                    <button type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <div class="cardholder">
+            <div class="cards">
+                <img class="img" src="images/watch.png" alt="">
+                <h2>Smart watch</h2>
+                <h3>$10</h3>
+                <div class="buttons">
+                    <button type="button">Add card</button>
+                    <button type="button">Buy Now</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img class="img" src="images/watch.png" alt="">
+                <h2>Smart watch</h2>
+                <h3>$10</h3>
+                <div class="buttons">
+                    <button type="button">Add card</button>
+                    <button type="button">Buy Now</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img class="img" src="images/watch.png" alt="">
+                <h2>Smart watch</h2>
+                <h3>$10</h3>
+                <div class="buttons">
+                    <button type="button">Add card</button>
+                    <button type="button">Buy Now</button>
+                </div>
+            </div>
+            <div class="cards">
+                <img class="img" src="images/watch.png" alt="">
+                <h2>Smart watch</h2>
+                <h3>$10</h3>
+                <div class="buttons">
+                    <button type="button">Add card</button>
+                    <button type="button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="side-container" >
+            <div class="side-image">
+                <div class="sides">
+                    <img src="images/tv/tv1.jpg" onclick="sideFunction(this)">
+                    <img src="images/tv/tv2.jpg" onclick="sideFunction(this)">
+                    <img src="images/tv/tvsize.jpg" onclick="sideFunction(this)">
+                    <img src="images/tv/tv1.jpg" onclick="sideFunction(this)">
+                    <img src="images/tv/tv2.jpg" onclick="sideFunction(this)">
+                </div>
+                <div class="bigimage">
+                    <img id="imgbox" src="images/tv/tv1.jpg" >
+                </div>
+            </div>
+            <div class="side-info">
+                <h2>OnePlus 138.7 cm (55 inches) U Series 4K LED Smart Android TV 55U1S (Black)</h2>
+                <table>
+                    <tr>
+                        <th>Screen Size</th>
+                        <td>55 Inches</td>
+                    </tr>
+                    <tr>
+                        <th>Brand</th>
+                        <td>OnePlus</td>
+                    </tr>
+                    <tr>
+                        <th>Display Technology</th>
+                        <td>LED</td>
+                    </tr>
+                    <tr>
+                        <th>Product Dimensions</th>
+                        <td>19D x 76.7W x 122.7H Centimeters</td>
+                    </tr>
+                    <tr>
+                        <th>Resolution</th>
+                        <td>4K</td>
+                    </tr>
+                    <tr>
+                        <th>Special Feature</th>
+                        <td>Gamma Engine | Google Assistant | OnePlus Connect 2.0 | OxygenPlay 2.0 | Data Saver Plus | Supported Apps : Netflix, Youtube, Prime Video, Hotstar, SonyLiv, Hungama, JioCinema, Zee5, Eros Now, Oxygen Play</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <div class="footer-data">
+        <div class="footer-logo">
+            <h2>Shop</h2>
+            <p>This website totaling user interface is user friendly to use. we have lot of product in our page. </p>
+            <div class="footer-buttons">
+                <ul>
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-menu">
+            <h2 class="footer-wid-title">User Navigation </h2>
+            <ul>
+                <li><a href="#">My account</a></li>
+                <li><a href="#">Order history</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Vendor contact</a></li>
+                <li><a href="#">Front page</a></li>
+            </ul>                        
+        </div>
+        <div class="footer-menu">
+            <h2 class="footer-wid-title">Categories</h2>
+            <ul>
+                <li><a href="#">Mobile Phone</a></li>
+                <li><a href="#">Home accesseries</a></li>
+                <li><a href="#">LED TV</a></li>
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Gadets</a></li>
+            </ul>
+        </div>
+        <div class="footer-newsletter">
+            <h2 class="footer-wid-title">Newsletter</h2>
+            <p>Sign up to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!</p>
+            <div class="newsletter-form">
+                <form action="#">
+                    <input type="email" placeholder="Type your email">
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="row">
+            <div class="copyright">
+                <p>&copy; 2023 Shop. All Rights Reserved.</p>
+            </div>    
+            <div class="col-md-4">
+                <div class="footer-card-icon">
+                    <i class="fa fa-cc-discover"></i>
+                    <i class="fa fa-cc-mastercard"></i>
+                    <i class="fa fa-cc-paypal"></i>
+                    <i class="fa fa-cc-visa"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <!--This script for close a login popup page-->
+    <script>
+        //login btn
+        document.getElementById("btn1").addEventListener('click',function(){
+            document.querySelector(".login-pop").style.display="flex";
+        })
+        document.querySelector(".close").addEventListener('click',function(){
+            document.querySelector(".login-pop").style.display="none";
+        })
+        //signup btn
+        document.getElementById("btn2").addEventListener('click',function(){
+            document.querySelector(".sign-pop").style.display="flex";
+        })
+        document.querySelector(".sclose").addEventListener('click',function(){
+            document.querySelector(".sign-pop").style.display="none";
+        })
+
+        //image sider
+       function sideFunction(smallimg)
+       {
+        var fullimg=document.getElementById("imgbox");
+        fullimg.src=smallimg.src;
+       }
+
+       const btn=document.querySelector(".navbtn");
+       btn.addEventListener("click",()=>{
+        document.querySelector(".navbar").classList.toggle("hide"),
+        document.querySelector(".srh").classList.toggle("hide");
+       })
+    </script>
+</body>
+</html>
